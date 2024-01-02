@@ -1,0 +1,68 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: green;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    border: 5px solid black;
+    gap: 25px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.button{
+    margin: 5px;
+    font-size: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+#dis{
+    background-color: black;
+    padding: 20px;
+    text-align: end;
+    color: white;
+    border: 0px;
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    outline: none;
+}
+
+.special{
+    padding: 25px;
+    text-align: start;
+    font-size: 20px;
+    height: 70px;
+    width: 155px;
+    border-radius: 50px;
+}
+
+.divide, .mutiply, .add, .equal, .minus{
+    background-color: orange;
+    font-size: 20px;
+}
+
+.clear, .both, .mode{
+    background-color: grey;
+}
