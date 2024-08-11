@@ -11,7 +11,7 @@ btn.forEach((button) => {
             display.value = string;
         }
         else if(e.target.innerHTML == "DE"){
-            let text = display.value;
+            let text = string;
             let ntext = text.slice(0,-1);
             display.value = ntext;
         }
@@ -22,7 +22,6 @@ btn.forEach((button) => {
         else{
             string = string + e.target.innerText;
             display.value = string;
-            string = "";
         }
     });
 });
