@@ -16,10 +16,10 @@ btn.forEach((button) => {
         }
         else if(e.target.innerHTML == "AC"){
             string = "";
-            display.value = string;
+            display.value = str;
         }
         else{
-            string += e.target.innerText;
+            string = string + e.target.innerText;
             display.value = string;
         }
     });
