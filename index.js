@@ -16,7 +16,7 @@ btn.forEach((button) => {
         }
         else if(e.target.innerHTML == "AC"){
             string = "";
-            display.value = str;
+            display.value = string;
         }
         else{
             string = string + e.target.innerText;
