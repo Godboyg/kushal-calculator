@@ -20,7 +20,7 @@ btn.forEach((button) => {
             display.value = str;
         }
         else{
-            string = string + e.target.innerText;
+            string += e.target.innerText;
             display.value = string;
         }
     });
