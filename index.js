@@ -14,6 +14,7 @@ btn.forEach((button) => {
             let text = display.value;
             let ntext = text.slice(0,-1);
             display.value = ntext;
+            string = "";
         }
         else if(e.target.innerHTML == "AC"){
             string = "";
