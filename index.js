@@ -3,6 +3,7 @@ let butt = document.querySelector(".special");
 let display = document.querySelector("#dis");
 let btn = Array.from(buttons);
 let string = "";
+let str = "";
 btn.forEach((button) => {
     button.addEventListener("click", (e) => {
         if(e.target.innerHTML == "="){
@@ -16,7 +17,7 @@ btn.forEach((button) => {
         }
         else if(e.target.innerHTML == "AC"){
             string = "";
-            display.value = string;
+            display.value = str;
         }
         else{
             string = string + e.target.innerText;
